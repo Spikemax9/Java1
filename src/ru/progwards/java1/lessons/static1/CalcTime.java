@@ -42,7 +42,4 @@ public class CalcTime {
         printTime();
     }
 
-    public static void main(String[] args) {
-        printTimes();
-    }
 }
