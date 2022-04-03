@@ -20,7 +20,5 @@ public class Room {
         printRoom("гостинной", square2);
     }
 
-    public static void main(String[] args) {
-        printFlat();
-    }
+
 }
