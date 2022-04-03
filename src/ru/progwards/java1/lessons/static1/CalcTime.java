@@ -8,7 +8,7 @@ public class CalcTime {
 
     public static void printTime(){
         double time = (distance * 1000 / speed * 3.6) / 3600;
-        System.out.printf("Если ехать из %s в %s со скоростью %.1f км/ч, то %.1f км проедем за %.1f часов.", cityFrom, cityTo, speed, distance, time);
+        System.out.printf("Если ехать из %s в %s со скоростью %.1f км/ч, то %.1f км проедем за %f часов.", cityFrom, cityTo, speed, distance, time);
         System.out.println();
     }
 
