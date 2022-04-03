@@ -20,5 +20,4 @@ public class Room {
         printRoom("гостинной", square2);
     }
 
-
 }
