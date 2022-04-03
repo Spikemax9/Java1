@@ -31,7 +31,5 @@ public class Goodies {
         printPresent();
     }
 
-    public static void main(String[] args) {
-        printPresents();
-    }
+
 }
