@@ -8,8 +8,7 @@ public class CalcTime {
 
     public static void printTime(){
         double time = distance / speed;
-        System.out.printf("Если ехать из %s в %s со скоростью %.1f км/ч, то %.1f км проедем за %.1f часов.", cityFrom, cityTo, speed, distance, time);
-        System.out.println();
+        System.out.println("Если ехать из " + cityTo+ " в "+cityTo+" со скоростью "+speed+" км/ч, то "+distance+" км проедем за "+time+" часов.");
     }
 
     public static void MoscowToPiter(){
@@ -41,5 +40,6 @@ public class CalcTime {
         MurmanskToAlmata();
         printTime();
     }
+
 
 }
