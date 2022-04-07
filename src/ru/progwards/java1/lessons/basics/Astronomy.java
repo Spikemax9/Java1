@@ -16,11 +16,15 @@ public class Astronomy {
         return sphereSquare(71492);
     }
     public static double earthVsMercury(){
-        return earthSquare() - mercurySquare();
+        return earthSquare() / mercurySquare();
     }
     public static double earthVsJupiter(){
-        return earthSquare() - jupiterSquare();
+        return earthSquare() / jupiterSquare();
     }
 
+    public static void main(String[] args) {
+        System.out.println(earthVsMercury());
+        System.out.println(earthVsJupiter());
+    }
 
 }
