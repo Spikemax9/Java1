@@ -2,7 +2,7 @@ package ru.progwards.java1.lessons.custing;
 
 public class OneLine {
     public static String strValue(String value){
-        return value;
+        return "Передана строка со значением ";
     }
     public static String intValue(String variable,  int value){
         return "Значение "+variable+ " равно "+value;
