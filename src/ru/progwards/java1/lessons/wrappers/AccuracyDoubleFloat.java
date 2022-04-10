@@ -19,5 +19,8 @@ public class AccuracyDoubleFloat {
         System.out.println(volumeBallDouble(R));
         System.out.println(volumeBallFloat((float) R));
         System.out.println(calculateAccuracy(R));
+        short i = (short) 256567.789;
+        System.out.println(i);
     }
+
 }
