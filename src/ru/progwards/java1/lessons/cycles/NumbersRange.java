@@ -18,8 +18,14 @@ public class NumbersRange {
     public static long sumEvenIdx(int start, int finish){
         long result = 0;
         for (int i = 1, j = start; j <= finish; i++, j++) {
-            if(i % 2 != 0) result += i;
+            if(i % 2 != 0) {
+                result += j;
+            }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sumEvenIdx(23, 74));
     }
 }
